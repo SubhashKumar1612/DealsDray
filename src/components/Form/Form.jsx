@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Form.css'; // Optional: CSS file for styling
+//import './Form.css'; // Optional: CSS file for styling
 
 function Form() {
     const [formData, setFormData] = useState({
@@ -19,7 +19,7 @@ function Form() {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await fetch('http://localhost:5000/submit-form', {
+            const response = await fetch('http://localhost:5000/register', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

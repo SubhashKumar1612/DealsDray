@@ -1,0 +1,63 @@
+.employee-list-container {
+  padding: 20px;
+  font-family: Arial, sans-serif; /* Use a clean, readable font */
+}
+
+.employee-table {
+  width: 100%;
+  border-collapse: collapse; /* Merge table borders */
+}
+
+.employee-table th, .employee-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.employee-table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.employee-table td img {
+  width: 20px; /* Set image size to 20px */
+  height: 20px; /* Maintain aspect ratio */
+  object-fit: cover; /* Ensure the image fits the container */
+  border-radius: 50%; /* Make the image round if desired */
+}
+
+.employee-table tr:nth-child(even) {
+  background-color: #f9f9f9; /* Alternate row colors for readability */
+}
+
+.employee-table tr:hover {
+  background-color: #f1f1f1; /* Highlight row on hover */
+}
+
+.employee-table ul {
+  list-style-type: none; /* Remove default list styling */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+}
+
+.employee-table ul li {
+  padding: 2px 0; /* Space out list items */
+}
+
+.edit-button {
+  background-color: #4CAF50; /* Green background */
+  color: white; /* White text */
+  border: none; /* Remove border */
+  padding: 6px 12px; /* Add padding */
+  text-align: center; /* Center text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Inline block for padding and margins */
+  font-size: 14px; /* Set font size */
+  margin: 4px 2px; /* Margins for spacing */
+  cursor: pointer; /* Pointer cursor on hover */
+  border-radius: 4px; /* Rounded corners */
+}
+
+.edit-button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}

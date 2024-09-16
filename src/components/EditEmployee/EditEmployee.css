@@ -1,0 +1,43 @@
+.edit-employee-container {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .edit-employee-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .edit-employee-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .edit-employee-container div {
+    margin-bottom: 15px;
+  }
+  
+  .edit-employee-container label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .edit-employee-container input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  .edit-employee-container button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .edit-employee-container button:hover {
+    background-color: #45a049;
+  }
+  
