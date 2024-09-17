@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Dashboard from './components/Dashboard/Dashboard';
-import Login from './components/Login/Login';
+import Login from "./components/Login/login";
 import Employee from './components/Employee/Employee';
 import EmployeeList from './components/EmployeeList/EmployeeList';
 import EditEmployee from './components/EditEmployee/EditEmployee'
